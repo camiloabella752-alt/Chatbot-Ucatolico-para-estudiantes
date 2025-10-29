@@ -1,0 +1,318 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "Buenos días",
+                "Buenas tardes",
+                "Qué tal",
+                "Cómo estás",
+                "Hey",
+                "Buenas noches",
+                "ola",
+                "hola"
+            ],
+            "responses": [
+                "¡Hola! 😊 ¿Cómo te encuentras hoy?",
+                "¡Buenos días! 🌞 Cuéntame, ¿en qué puedo ayudarte?",
+                "¡Hey! 👋 Bienvenido al chatbot de la Universidad Católica de Colombia, ¿qué información buscas?"
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "adios",
+                "Adiós",
+                "Chao",
+                "chao",
+                "Hasta luego",
+                "Nos vemos",
+                "Gracias, hasta pronto"
+            ],
+            "responses": [
+                "¡Adiós! 👋 Espero haberte ayudado, que tengas un gran día.",
+                "Hasta luego ✨, recuerda que siempre estaré aquí si necesitas algo.",
+                "¡Chao! Fue un gusto ayudarte, nos vemos pronto. 🙌"
+            ]
+        },
+        {
+            "tag": "historia_universidad",
+            "patterns": [
+                "Historia de la universidad",
+                "¿Cuándo se fundó la universidad?",
+                "Trayectoria de la universidad católica",
+                "¿Desde cuándo existe la universidad católica?"
+            ],
+            "responses": [
+                "La Universidad Católica de Colombia fue fundada el 3 de marzo de 1970 por un grupo de profesores. Desde entonces ha formado profesionales con valores éticos, científicos y sociales. Está ubicada en Bogotá y cuenta con acreditación institucional de alta calidad. 🏛️ \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "inscripcion",
+            "patterns": [
+                "¿Cómo me inscribo?",
+                "Inscripción universidad católica de Colombia",
+                "Proceso de inscripción UCatólica",
+                "Formulario de inscripción",
+                "Dónde me inscribo"
+            ],
+            "responses": [
+                "Puedes iniciar tu proceso de inscripción en línea ingresando a 👉 https://www.ucatolica.edu.co/portal/Landings/inscribete/ Allí encontrarás el formulario oficial, pasos y requisitos para postularte a un programa de pregrado o posgrado. 📝 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/Landings/inscribete/"
+            ]
+        },
+        {
+            "tag": "admision_requisitos",
+            "patterns": [
+                "Requisitos de admisión",
+                "Admisión universidad católica de Colombia",
+                "Qué necesito para ingresar",
+                "Documentos para matrícula"
+            ],
+            "responses": [
+                "El proceso de admisión incluye llenar el formulario en línea, subir tus documentos académicos (como acta de grado o certificados), y esperar la confirmación del programa. Puedes ver más detalles en la sección de admisiones del portal oficial. 🎓 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/Landings/inscribete/"
+            ]
+        },
+        {
+            "tag": "programas_pregrado",
+            "patterns": [
+                "Programas de pregrado",
+                "Pregrados universidad católica de Colombia",
+                "Carreras disponibles",
+                "Qué puedo estudiar en la católica"
+            ],
+            "responses": [
+                "La Universidad Católica de Colombia ofrece varios programas de pregrado: Administración de Empresas, Derecho, Arquitectura, Economía, Psicología, Ingeniería Civil, Ingeniería Industrial, Ingeniería de Sistemas y Computación, e Ingeniería Electrónica y Telecomunicaciones. 🧑‍🎓 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/pregrados/"
+            ]
+        },
+        {
+            "tag": "programas_posgrado",
+            "patterns": [
+                "Programas de posgrado",
+                "Posgrados universidad católica de Colombia",
+                "Especializaciones",
+                "Maestrías",
+                "Doctorados"
+            ],
+            "responses": [
+                "Contamos con especializaciones, maestrías y doctorados en diferentes áreas: Psicología, Derecho, Ingeniería, Arquitectura, Economía y más. 👩‍🏫 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/posgrados/"
+            ]
+        },
+        {
+            "tag": "becas_y_financiacion",
+            "patterns": [
+                "Becas",
+                "Financiación",
+                "Descuentos",
+                "Apoyo económico",
+                "Ayudas financieras"
+            ],
+            "responses": [
+                "La universidad ofrece becas, convenios y financiación directa o con entidades aliadas. 💰 Puedes consultar los beneficios y requisitos en el portal de admisiones o acercarte a Bienestar Universitario para recibir orientación. \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/Landings/inscribete/"
+            ]
+        },
+        {
+            "tag": "plataforma_virtual",
+            "patterns": [
+                "Plataforma virtual",
+                "EVA",
+                "Campus virtual",
+                "Aula virtual",
+                "Ingreso a clases virtuales"
+            ],
+            "responses": [
+                "Para acceder a tus clases y materiales digitales ingresa a la plataforma EVA (Entorno Virtual de Aprendizaje) 🌐 en 👉 https://www.ucatolica.edu.co/portal/eva/. Usa tu usuario institucional para ingresar. \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/eva/"
+            ]
+        },
+        {
+            "tag": "servicios_estudiantiles",
+            "patterns": [
+                "Servicios estudiantiles",
+                "Bienestar universitario",
+                "Apoyo al estudiante",
+                "Actividades deportivas",
+                "Orientación psicológica"
+            ],
+            "responses": [
+                "La Universidad ofrece servicios de Bienestar Universitario, apoyo psicológico, asesorías académicas, deportes, cultura, y más. 🏃‍♀️ Puedes consultar horarios y actividades en el área de Bienestar en la sede *El Claustro* o por el correo vocerobienestar@ucatolica.edu.co \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "sede_claustro",
+            "patterns": [
+                "¿Dónde queda la sede el claustro?",
+                "Ubicación sede claustro",
+                "Dirección claustro"
+            ],
+            "responses": [
+                "La sede *El Claustro* está ubicada en Dg. 46a #15-10, Teusaquillo, Bogotá 📍. ¡Es muy fácil llegar!"
+            ]
+        },
+        {
+            "tag": "sede_torres",
+            "patterns": [
+                "¿Dónde queda la sede las torres?",
+                "Ubicación sede las torres",
+                "Dirección sede torres"
+            ],
+            "responses": [
+                "La sede *Las Torres* se encuentra en Cl. 47 #13-63, Chapinero, Bogotá 🏢."
+            ]
+        },
+        {
+            "tag": "instituto_lenguas",
+            "patterns": [
+                "¿Dónde queda el instituto de lenguas?",
+                "Ubicación instituto de lenguas",
+                "Dirección instituto de lenguas"
+            ],
+            "responses": [
+                "El *Instituto de Lenguas* está en Cl. 47 #13-63, Chapinero, Bogotá. ¡Allí encontrarás toda la información sobre cursos y programas! 📘 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "biblioteca",
+            "patterns": [
+                "¿Dónde queda la biblioteca?",
+                "Ubicación biblioteca",
+                "Dirección biblioteca"
+            ],
+            "responses": [
+                "📚 La biblioteca está en la sede 4, tercer piso. ¡Un excelente lugar para estudiar o investigar!"
+            ]
+        },
+        {
+            "tag": "cafeterias",
+            "patterns": [
+                "¿Dónde están las cafeterías?",
+                "Ubicación cafetería",
+                "Cafeterías universidad"
+            ],
+            "responses": [
+                "☕ Puedes visitar la cafetería de la sede 4 (primer piso) o la del Claustro, ubicada después de la cancha multipropósito."
+            ]
+        },
+        {
+            "tag": "contacto_general",
+            "patterns": [
+                "Contacto universidad",
+                "Correo universidad católica",
+                "Teléfono universidad católica",
+                "Correo general ucatólica"
+            ],
+            "responses": [
+                "Puedes comunicarte con la Universidad Católica de Colombia por medio del correo info@ucatolica.edu.co o a través del formulario de contacto disponible en el portal oficial 📩 \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "contacto_registro",
+            "patterns": [
+                "Correo de registro y control",
+                "Contacto registro y control",
+                "¿Dónde puedo escribir para cambio de horario?"
+            ],
+            "responses": [
+                "Puedes escribir a 📧 registroycontrol@ucatolica.edu.co. ¡Ellos te ayudarán con tus trámites académicos!"
+            ]
+        },
+        {
+            "tag": "contacto_internacionalizacion",
+            "patterns": [
+                "Correo de internacionalización",
+                "Contacto internacionalización",
+                "Relaciones internacionales"
+            ],
+            "responses": [
+                "Para temas de internacionalización, escríbenos a 🌍 relacionesinternacionales@ucatolica.edu.co \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "contacto_lenguas",
+            "patterns": [
+                "Correo instituto de lenguas",
+                "Contacto instituto de lenguas"
+            ],
+            "responses": [
+                "✉️ El correo del *Instituto de Lenguas* es: institutodelenguas@ucatolica.edu.co"
+            ]
+        },
+        {
+            "tag": "contacto_bienestar",
+            "patterns": [
+                "Correo bienestar universitario",
+                "Bienestar universitario contacto"
+            ],
+            "responses": [
+                "📩 El correo de Bienestar Universitario es: vocerobienestar@ucatolica.edu.co \n\n🔗 Más información en: https://www.ucatolica.edu.co/portal/"
+            ]
+        },
+        {
+            "tag": "contacto_psicologia",
+            "patterns": [
+                "Correo psicología",
+                "Contacto facultad de psicología"
+            ],
+            "responses": [
+                "Puedes escribir a la facultad de Psicología al correo: extensionpsicologia@ucatolica.edu.co"
+            ]
+        },
+        {
+            "tag": "contacto_ingenieria",
+            "patterns": [
+                "Correo facultad de ingeniería",
+                "Ingeniería contacto",
+                "Correo de la facultad de ingenieria"
+            ],
+            "responses": [
+                "El correo de la Facultad de Ingeniería es: facultadingenieria1@ucatolica.edu.co ⚙️"
+            ]
+        },
+        {
+            "tag": "contacto_egresados",
+            "patterns": [
+                "Egresados contacto",
+                "Correo de egresados",
+                "Coordinación de egresados",
+                "Dónde puedo contactar a egresados",
+                "Sitio de egresados",
+                "Página de egresados",
+                "Portal de egresados",
+                "Servicios para egresados",
+                "Trámites egresados",
+                "Consultas egresados",
+                "Información egresados",
+                "Egresados"
+            ],
+            "responses": [
+                "Puedes encontrar toda la información sobre la Coordinación de Egresados aquí 👉 https://www.ucatolica.edu.co/portal/egresados/coordinacion-de-egresados/",
+                "Consulta los servicios disponibles para egresados en este enlace 🌐 https://www.ucatolica.edu.co/portal/egresados/servicios/",
+                "También puedes acceder a los trámites y consultas de egresados aquí 🧾 https://www.ucatolica.edu.co/portal/egresados/servicios/"
+            ]
+        },
+        {
+            "tag": "consultas_academicas",
+            "patterns": [
+                "Horario de clases",
+                "horario",
+                "Ver mis clases",
+                "Consultar mi horario",
+                "Notas parciales",
+                "Notas finales",
+                "Ver mis notas",
+                "Consultar notas",
+                "Fallas en materias",
+                "Consultar fallas",
+                "Fallas acumuladas",
+                "Ver mis asistencias",
+                "Notas y horario",
+                "Notas y fallas",
+                "Cómo revisar mis clases",
+                "Portal académico"
+            ],
+            "responses": [
+                "Puedes consultar tu horario de clases, notas y fallas ingresando al Portal Web Académico (PAW) aquí 👉 https://portalweb.ucatolica.edu.co/paw/ 🧑‍💻",
+                "Accede a tu información académica (horarios, notas y asistencias) desde el Portal Web Académico: https://portalweb.ucatolica.edu.co/paw/ 📚"
+            ]
+        }
+    ]
+}
