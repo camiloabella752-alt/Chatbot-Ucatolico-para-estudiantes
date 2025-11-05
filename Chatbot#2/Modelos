@@ -47,3 +47,13 @@ async def show_Usuario():
             "email": "cj1@gmail.com"
         }
     ]
+
+
+from typing import Optional
+from pydantic import BaseModel, Field
+
+class Usuario (BaseModel):
+    Id: int;
+    name: str;
+    edad: int;
+    email: str;
