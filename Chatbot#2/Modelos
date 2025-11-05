@@ -1,0 +1,49 @@
+from typing import Union
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+# Modelo de usuario
+class Usuario(BaseModel):
+    id: int
+    name: str
+    edad: int
+    email: str
+
+
+# Endpoint raíz
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+
+# Endpoint para items con parámetro y query opcional
+@app.get("/items/{item_id}")
+def read_item(item_id: int, q: Union[str, None] = None):
+    return {"item_id": item_id, "q": q}
+
+
+# Endpoint para mostrar usuarios
+@app.get("/Usuario", response_model=list[Usuario])
+async def show_Usuario():
+    return [
+        {
+            "id": 1234,
+            "name": "Camilo",
+            "edad": 21,
+            "email": "jc@gmail.com"
+        },
+        {
+            "id": 2345,
+            "name": "pascal",
+            "edad": 21,
+            "email": "cj@gmail.com"
+        },
+        {
+            "id": 3456,
+            "name": "Torres",
+            "edad": 21,
+            "email": "cj1@gmail.com"
+        }
+    ]
